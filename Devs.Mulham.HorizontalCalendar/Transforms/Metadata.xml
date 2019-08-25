@@ -29,9 +29,6 @@
     </class>
   </add-node>
 
-
-  path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']/class[@name='EventsAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]"
-
   <attr path="/api/package[@name='devs.mulham.horizontalcalendar']/class[@name='HorizontalCalendar']" name="managedName">HorizontalCalendarClass</attr>
 
   <attr path="/api/package[@name='devs.mulham.horizontalcalendar.utils']/class[@name='Utils']" name="managedName">UtilsClass</attr>
