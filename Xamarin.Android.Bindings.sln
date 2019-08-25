@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devs.Mulham.HorizontalCalendar", "Devs.Mulham.HorizontalCalendar\Devs.Mulham.HorizontalCalendar.csproj", "{A2CC9A29-13BF-4C94-AA3C-E357CD90F1B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devs.Mulham.HorizontalCalendar.Test", "Devs.Mulham.HorizontalCalendar.Test\Devs.Mulham.HorizontalCalendar.Test.csproj", "{569A7C93-3D27-4B37-8C45-D242249DFB2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2CC9A29-13BF-4C94-AA3C-E357CD90F1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CC9A29-13BF-4C94-AA3C-E357CD90F1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CC9A29-13BF-4C94-AA3C-E357CD90F1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CC9A29-13BF-4C94-AA3C-E357CD90F1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569A7C93-3D27-4B37-8C45-D242249DFB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569A7C93-3D27-4B37-8C45-D242249DFB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569A7C93-3D27-4B37-8C45-D242249DFB2A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{569A7C93-3D27-4B37-8C45-D242249DFB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569A7C93-3D27-4B37-8C45-D242249DFB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569A7C93-3D27-4B37-8C45-D242249DFB2A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FCE9CC7-C878-4375-AFA9-EF958B18546C}
+	EndGlobalSection
+EndGlobal

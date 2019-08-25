@@ -1,0 +1,48 @@
+﻿<metadata>
+  <attr path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']/class[@name='DateViewHolder']" name="visibility">public</attr>
+
+  <add-node path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']">
+    <class abstract="false" deprecated="not deprecated" final="false" name="DateViewHolder" static="false" visibility="public" extends="android.support.v7.widget.RecyclerView.ViewHolder">
+      <field visibility="public" name="textTop" type="android.widget.TextView" />
+      <field visibility="public" name="textMiddle" type="android.widget.TextView" />
+      <field visibility="public" name="textBottom" type="android.widget.TextView" />
+      <field visibility="public" name="selectionView" type="android.view.View" />
+      <field visibility="public" name="layoutContent" type="android.view.View" />
+      <field visibility="public" name="eventsRecyclerView" type="android.support.v7.widget.RecyclerView" />
+    </class>
+  </add-node>
+
+  <add-node path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']">
+    <class abstract="false" deprecated="not deprecated" final="false" name="HorizontalCalendarBaseAdapter" static="false" visibility="public" extends="java.lang.Object">
+      <field visibility="public" name="horizontalCalendar" type="devs.mulham.horizontalcalendar.HorizontalCalendar" />
+    </class>
+  </add-node>
+
+  <add-node path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']">
+    <class abstract="false" deprecated="not deprecated" final="false" name="EventsAdapter" static="false" visibility="public" extends="java.lang.Object">
+      <method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder"
+              jni-signature="(Ldevs/mulham/horizontalcalendar/adapter/DateViewHolder;I)V;" return="void" jni-return="V" bridge="false"
+              native="false" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="holder" type="devs.mulham.horizontalcalendar.adapter.DateViewHolder" jni-type="Ldevs/mulham/horizontalcalendar/adapter/DateViewHolder;" />
+        <parameter name="position" type="int" jni-type="I" />
+      </method>
+    </class>
+  </add-node>
+
+
+  path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']/class[@name='EventsAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]"
+
+  <attr path="/api/package[@name='devs.mulham.horizontalcalendar']/class[@name='HorizontalCalendar']" name="managedName">HorizontalCalendarClass</attr>
+
+  <attr path="/api/package[@name='devs.mulham.horizontalcalendar.utils']/class[@name='Utils']" name="managedName">UtilsClass</attr>
+
+  <attr path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']/class[@name='DaysAdapter']/method[@name='createViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.View'] and parameter[2][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']/class[@name='DaysAdapter']/method[@name='getItem' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']/class[@name='MonthsAdapter']/method[@name='getItem' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']/class[@name='MonthsAdapter']/method[@name='createViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.View'] and parameter[2][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <remove-node path="/api/package[@name='devs.mulham.horizontalcalendar.adapter']/class[@name='HorizontalCalendarBaseAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]" />
+</metadata>
